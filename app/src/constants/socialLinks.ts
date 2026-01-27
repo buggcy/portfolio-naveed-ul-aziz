@@ -5,8 +5,7 @@ export interface SocialLink {
 }
 
 export const socialLinks: SocialLink[] = [
-  { name: 'LinkedIn', url: 'https://linkedin.com' },
-  { name: 'Twitter', url: 'https://twitter.com' },
-  { name: 'Dribbble', url: 'https://dribbble.com' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/naveedulaziz/' },
+  { name: 'GitHub', url: 'https://github.com/naveedulaziz' },
+  { name: 'Portfolio', url: 'https://naveedulaziz.com' },
 ];
-

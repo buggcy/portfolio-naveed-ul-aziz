@@ -74,12 +74,12 @@ export default function Hero() {
   }, [isScrolling, floatingY]);
 
   const marqueeItems = [
-    { icon: FaBuilding, label: "ROYAL SWIFT SERVICES" },
-    { icon: FaRocket, label: "BEST DEAL MARKETING" },
-    { icon: FaStore, label: "AL HAMAD DEVELOPERS" },
-    { icon: FaCloud, label: "AYYAN DEVELOPER" },
-    { icon: FaLaptop, label: "GLOBAL ECO GROUP" },
-    { icon: FaBuilding, label: "FORMAN CHRISTIAN COLLEGE" },
+    { icon: FaLaptop, label: "INOVZONE" },
+    { icon: FaRocket, label: "PURELOGICS" },
+    { icon: FaBuilding, label: "ARBISOFT" },
+    { icon: FaCloud, label: "ORM DIGITAL SOLUTIONS" },
+    { icon: FaStore, label: "LAHORE GARRISON UNIVERSITY" },
+    { icon: FaLaptop, label: "DFRSC" },
   ];
 
   return (
@@ -297,8 +297,8 @@ export default function Hero() {
               transition={{ duration: 0.5, ease: "easeOut" }}
             >
               <Image
-                src="/assets/images/abd.jpeg"
-                alt="Abdul Rehman"
+                src="/assets/images/profile.jpeg"
+                alt="Naveed Ul Aziz"
                 width={128}
                 height={128}
                 className="w-full h-full object-cover object-top rounded-full"
@@ -312,7 +312,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
           >
-            Abdul Rehman
+            Naveed Ul Aziz
           </motion.h2>
           <motion.p
             className="text-xs md:text-sm text-gray-500 font-medium px-2"
@@ -320,7 +320,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            Property developer & export operator
+            Technology Leader & Software Architect
           </motion.p>
         </motion.div>
 
@@ -335,7 +335,7 @@ export default function Hero() {
           }}
           className="text-base sm:text-lg md:text-xl lg:text-3xl xl:text-6xl font-semibold text-gray-700 leading-tight sm:leading-snug mb-4 sm:mb-6 tracking-tight break-words hyphens-auto"
         >
-          Reliable Property, Logistics, and Environmental Services
+          Building Digital Products That Impact Millions
         </motion.h1>
 
         {/* <motion.p
@@ -502,7 +502,7 @@ export default function Hero() {
               >
                 {/* Twitter/X */}
                 <motion.a
-                  href="https://twitter.com"
+                  href="https://x.com/chhnaveedulaziz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white hover:text-gray-300 transition-colors"
@@ -520,7 +520,7 @@ export default function Hero() {
 
                 {/* LinkedIn */}
                 <motion.a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/naveedulaziz/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white hover:text-gray-300 transition-colors"
@@ -536,21 +536,22 @@ export default function Hero() {
                   </svg>
                 </motion.a>
 
-                {/* Instagram */}
+                {/* Whatsaapp */}
                 <motion.a
-                  href="https://instagram.com"
+                  href="https://api.whatsapp.com/send?phone=923107779772&text=Lets%20Discuss%20Project"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white hover:text-gray-300 transition-colors"
                   whileHover={{ scale: 1.2 }}
                   whileTap={{ scale: 0.9 }}
                 >
-                  <svg
-                    className="w-4 h-4"
+                  <svg 
+                    className="w-5 h-5"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
-                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    <path d="M6.014 8.00613C6.12827 7.1024 7.30277 5.87414 8.23488 6.01043L8.23339 6.00894C9.14051 6.18132 9.85859 7.74261 10.2635 8.44465C10.5504 8.95402 10.3641 9.4701 10.0965 9.68787C9.7355 9.97883 9.17099 10.3803 9.28943 10.7834C9.5 11.5 12 14 13.2296 14.7107C13.695 14.9797 14.0325 14.2702 14.3207 13.9067C14.5301 13.6271 15.0466 13.46 15.5548 13.736C16.3138 14.178 17.0288 14.6917 17.69 15.27C18.0202 15.546 18.0977 15.9539 17.8689 16.385C17.4659 17.1443 16.3003 18.1456 15.4542 17.9421C13.9764 17.5868 8 15.27 6.08033 8.55801C5.97237 8.24048 5.99955 8.12044 6.014 8.00613Z"/>
+                    <path fillRule="evenodd" clipRule="evenodd" d="M12 23C10.7764 23 10.0994 22.8687 9 22.5L6.89443 23.5528C5.56462 24.2177 4 23.2507 4 21.7639V19.5C1.84655 17.492 1 15.1767 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM6 18.6303L5.36395 18.0372C3.69087 16.4772 3 14.7331 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C11.0143 21 10.552 20.911 9.63595 20.6038L8.84847 20.3397L6 21.7639V18.6303Z"/>
                   </svg>
                 </motion.a>
               </motion.div>

@@ -17,7 +17,8 @@ export default function DownloadCV() {
         >
           <motion.a
             variants={fadeInUp}
-            href="#"
+            href="/Naveed Ul Aziz Detailed Resume V2.docx.pdf"
+            download
             className="inline-flex items-center gap-3 text-black font-medium text-lg hover:opacity-70 transition-opacity"
           >
             <span>Download CV</span>

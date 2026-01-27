@@ -16,8 +16,8 @@ export default function Footer() {
       <div className="container mx-auto px-4 md:px-6 lg:px-8 py-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
-            <p className="text-sm text-gray-600">Made by Tom D</p>
-            <p className="text-sm text-gray-600 mt-1">Built with Framer</p>
+            <p className="text-sm text-gray-600">© 2026 Naveed Ul Aziz</p>
+            <p className="text-sm text-gray-600 mt-1">Technology Leader</p>
           </div>
 
           <div className="flex items-center gap-4">
@@ -40,7 +40,7 @@ export default function Footer() {
           </div>
 
           <div className="text-center md:text-right">
-            <p className="text-sm text-gray-600">Los Angeles</p>
+            <p className="text-sm text-gray-600">Lahore, Pakistan</p>
             <p className="text-sm text-gray-600 mt-1">Available for work</p>
           </div>
         </div>

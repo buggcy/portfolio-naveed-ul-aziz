@@ -380,7 +380,7 @@ export default function Contact() {
             className="flex justify-center"
           >
             <motion.a
-              href="mailto:abrehmanewm@gmail.com"
+              href="mailto:me@naveedulaziz.com"
               className="px-6 py-2.5 sm:px-8 sm:py-3 rounded-full bg-white text-black text-sm sm:text-base font-bold hover:bg-gray-100 transition-colors shadow-2xl"
               whileHover={{
                 scale: 1.05,

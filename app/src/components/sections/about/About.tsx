@@ -22,7 +22,7 @@ export default function About() {
   });
 
   const text =
-    "I’m Abdul Rehman, CEO and Founder with a focus on real estate development and cross-border trade. I lead Royal Swift Services, Best Deal Marketing, and Al Hamad Developers, delivering investor-ready housing, compliant export operations, and sustainable programs. My work is guided by trust, regulatory excellence, and long-term value creation for partners across Punjab and the GCC.";
+    "I'm Naveed Ul Aziz, a technology leader with 12+ years of experience building impactful digital products. From Chief Technology Officer at InovZone to Technical Project Manager at PureLogics and Senior Software Engineer at Arbisoft, I've delivered platforms that serve millions of users. I specialize in full-stack development, cloud architecture, and leading cross-functional teams to create scalable solutions. Gold medalist from Lahore Garrison University, I'm passionate about innovation and solving complex problems with technology.";
   const words = useMemo(() => text.split(" "), [text]);
   const easeCurve: [number, number, number, number] = [0.43, 0.13, 0.23, 0.96];
 
@@ -78,8 +78,8 @@ export default function About() {
                 transition={{ duration: 0.5, ease: "easeOut" }}
               >
                 <Image
-                  src="/assets/images/abd.jpeg"
-                  alt="Abdul Rehman"
+                  src="/assets/images/profile.jpeg"
+                  alt="Naveed Ul Aziz"
                   width={128}
                   height={128}
                   className="w-full h-full object-cover object-top rounded-full"
@@ -94,7 +94,7 @@ export default function About() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.5 }}
             >
-              Abdul Rehman
+              Naveed Ul Aziz
             </motion.h2>
             <motion.p
               className="text-xs md:text-sm text-gray-500 font-medium px-2"
@@ -103,7 +103,7 @@ export default function About() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.6 }}
             >
-              Property developer & export operator
+              Technology Leader & Software Architect
             </motion.p>
           </motion.div>
 
@@ -193,7 +193,7 @@ export default function About() {
                 />
               </svg>
               <span className="text-xs md:text-sm text-gray-700 font-medium">
-                Owner · Royal Swift Services (Export corridors)
+                Chief Technology Officer · InovZone
               </span>
             </motion.div>
 
@@ -222,7 +222,7 @@ export default function About() {
                 />
               </svg>
               <span className="text-xs md:text-sm text-gray-700 font-medium">
-                CEO · Best Deal Marketing (Property solutions)
+                Technical Project Manager · PureLogics
               </span>
             </motion.div>
 
@@ -257,7 +257,7 @@ export default function About() {
                 />
               </svg>
               <span className="text-xs md:text-sm text-gray-700 font-medium">
-                Partner · Al Hamad Developers (Housing & commercial)
+                Senior Software Engineer · Arbisoft
               </span>
             </motion.div>
           </motion.div>

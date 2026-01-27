@@ -8,6 +8,7 @@ import { useRef } from "react";
 interface ProjectCardProps {
   project: Project;
   index: number;
+  onClick?: () => void;
 }
 
 const imageHoverVariants = {
@@ -15,7 +16,7 @@ const imageHoverVariants = {
   hover: { scale: 1.05 },
 };
 
-export default function ProjectCard({ project, index }: ProjectCardProps) {
+export default function ProjectCard({ project, index, onClick }: ProjectCardProps) {
   const ref = useRef(null);
 
   // Scroll-based parallax animation
@@ -40,8 +41,9 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
   return (
     <motion.div
       ref={ref}
+      onClick={onClick}
       style={{ opacity, scale }}
-      className="group cursor-pointer h-full"
+      className="group cursor-pointer h-full block"
       initial="rest"
       animate="rest"
       whileHover="hover"
@@ -60,7 +62,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
               src={project.image}
               alt={project.title}
               fill
-              className="object-cover object-center"
+              className={`object-cover ${project.imagePosition || 'object-center'}`}
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
               priority={index < 2}
               quality={90}
@@ -91,18 +93,6 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
             >
               {project.title.split(" ").slice(0, 2).join(" ")}
             </motion.h3>
-            <motion.p
-              className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-white/95 font-light leading-relaxed"
-              style={{
-                fontFamily: "var(--font-inter)",
-                display: "-webkit-box",
-                WebkitLineClamp: 3,
-                WebkitBoxOrient: "vertical",
-                overflow: "hidden",
-              }}
-            >
-              {project.description}
-            </motion.p>
           </motion.div>
         </motion.div>
       </div>

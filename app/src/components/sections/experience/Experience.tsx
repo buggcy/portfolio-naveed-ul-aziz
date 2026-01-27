@@ -10,7 +10,7 @@ export default function Experience() {
   const handleDownloadCV = () => {
     // Add your CV download logic here
     // For now, this is a placeholder
-    window.open("/assets/cv.pdf", "_blank");
+    window.open("/Naveed_UL_AZIZ_CV.pdf", "_blank");
   };
 
   return (
@@ -53,7 +53,7 @@ export default function Experience() {
           <div className="flex justify-center mt-6 md:mt-8">
             <motion.button
               onClick={handleDownloadCV}
-              className="px-6 py-2.5 bg-black text-white rounded-full hover:bg-gray-800 transition-all duration-300 text-sm md:text-base font-medium shadow-lg hover:shadow-xl"
+              className="px-6 py-2.5 bg-black text-white rounded-full hover:bg-gray-800 transition-all duration-300 text-sm md:text-base font-medium shadow-lg hover:shadow-xl cursor-pointer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >

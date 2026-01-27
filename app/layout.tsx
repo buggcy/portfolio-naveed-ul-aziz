@@ -25,9 +25,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Abdul Rehman - Product Designer",
+  title: "Naveed Ul Aziz - Technology Leader & Software Architect",
   description:
-    "Creating intuitive, user-focused digital experiences. Abdul Rehman blends design intuition with technical rigor to craft delightful products.",
+    "12+ years building impactful digital products. CTO, Technical Project Manager, and Senior Software Engineer specializing in full-stack development and cloud architecture.",
 };
 
 export default function RootLayout({
