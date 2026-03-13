@@ -104,8 +104,13 @@ export default function Header() {
                   : "opacity-100"
               }`}
             >
-              <motion.a
-                href="#contact"
+              <motion.button
+                onClick={() => {
+                  const form = document.getElementById("contact-form");
+                  if (form) {
+                    form.scrollIntoView({ behavior: "smooth", block: "center" });
+                  }
+                }}
                 className={`px-4 md:px-6 py-1.5 md:py-2 rounded-full text-xs md:text-sm font-medium transition-colors ${
                   isOverDarkSection
                     ? "text-white bg-gray-600 hover:bg-blue-400"
@@ -115,7 +120,7 @@ export default function Header() {
                 whileTap={{ scale: 0.95 }}
               >
                 Let&apos;s connect
-              </motion.a>
+              </motion.button>
             </div>
 
             {/* Mobile Menu Button with dynamic color */}
@@ -186,7 +191,7 @@ export default function Header() {
                   className="text-black text-xl font-bold"
                   style={{ fontFamily: "var(--font-dancing-script)" }}
                 >
-                  Abdul Rehman
+                  Naveed Ul Aziz
                 </span>
               </motion.div>
             </div>
@@ -219,16 +224,23 @@ export default function Header() {
 
             {/* Mobile Menu Footer Button */}
             <div className="mt-auto">
-              <motion.a
-                href="#contact"
+              <motion.button
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  setTimeout(() => {
+                    const form = document.getElementById("contact-form");
+                    if (form) {
+                      form.scrollIntoView({ behavior: "smooth", block: "center" });
+                    }
+                  }, 300);
+                }}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 }}
-                onClick={() => setIsMobileMenuOpen(false)}
                 className="w-full py-5 bg-[#2d2e32] text-white rounded-[28px] flex items-center justify-center text-lg font-medium shadow-lg active:scale-[0.98] transition-transform"
               >
                 Let&apos;s connect
-              </motion.a>
+              </motion.button>
             </div>
           </motion.div>
         )}

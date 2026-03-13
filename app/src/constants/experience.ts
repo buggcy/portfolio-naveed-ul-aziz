@@ -6,7 +6,7 @@ export const experiences: Experience[] = [
     title: 'Chief Technology Officer',
     company: 'InovZone',
     startDate: 'Apr 2019',
-    endDate: 'Feb 2020',
+    endDate: 'Mar 2024',
     duration: 'Remote-KSA',
     description:
       'Led complete technology operations and digital transformation initiatives, overseeing multiple high-impact projects including e-commerce platforms and digital services.',
@@ -65,36 +65,6 @@ export const experiences: Experience[] = [
       'Built Avatar SEO service platform helping businesses improve online presence',
       'Participated in code reviews ensuring code quality and maintainability',
       'Conducted unit testing and resolved software defects',
-    ],
-  },
-  {
-    id: 'dfrsc-volunteer',
-    title: 'Data Scientist and Cyber Security Professional',
-    company: 'DFRSC',
-    startDate: 'Mar 2018',
-    endDate: 'Feb 2019',
-    duration: 'Part-Time - Onsite',
-    description:
-      'Analyzed complex data sets using machine learning algorithms and implemented security measures to protect systems and data.',
-    responsibilities: [
-      'Developed predictive models and data-driven solutions for business challenges',
-      'Implemented security awareness training and promoted security culture',
-      'Conducted security incident response and forensic analysis',
-      'Provided guidance on security best practices and compliance requirements',
-    ],
-  },
-  {
-    id: 'lgu-education',
-    title: 'BSc Computer Science',
-    company: 'Lahore Garrison University',
-    startDate: '2014',
-    endDate: '2018',
-    duration: 'Lahore, Pakistan',
-    description: 'Achieved highest honors with 4.0 GPA and received Gold Medal at 3rd Convocation.',
-    responsibilities: [
-      'First student in Computer Science Department to score 4.0 GPA in a semester',
-      'Gold Medal recipient at 3rd Convocation',
-      'Strong foundation in software engineering and computer science principles',
     ],
   },
 ];

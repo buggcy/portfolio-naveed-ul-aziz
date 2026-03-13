@@ -143,9 +143,14 @@ export default function About() {
             }}
             className="mb-12"
           >
-            <motion.a
-              href="#contact"
-              aria-label="Jump to contact section"
+            <motion.button
+              onClick={() => {
+                const form = document.getElementById("contact-form");
+                if (form) {
+                  form.scrollIntoView({ behavior: "smooth", block: "center" });
+                }
+              }}
+              aria-label="Scroll to contact form"
               className="inline-block px-6 py-1.5 rounded-full bg-[#fd2525] text-white text-lg font-medium hover:bg-gray-800 shadow-lg min-w-[150px]"
               whileHover={
                 prefersReducedMotion
@@ -157,7 +162,7 @@ export default function About() {
               whileTap={prefersReducedMotion ? undefined : { scale: 0.95 }}
             >
               Let&apos;s talk!
-            </motion.a>
+            </motion.button>
           </motion.div>
 
           {/* Info Badges */}

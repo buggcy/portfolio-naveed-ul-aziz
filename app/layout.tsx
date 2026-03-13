@@ -28,6 +28,7 @@ export const metadata: Metadata = {
   title: "Naveed Ul Aziz - Technology Leader & Software Architect",
   description:
     "12+ years building impactful digital products. CTO, Technical Project Manager, and Senior Software Engineer specializing in full-stack development and cloud architecture.",
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({
